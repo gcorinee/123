@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <DatePicker
+        android:id="@+id/add_date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:calendarViewShown="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_save_time_add"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/btn_cancel_time_add"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</LinearLayout>
